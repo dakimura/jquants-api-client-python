@@ -13,6 +13,9 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 keywords = ["jquants", "api", "client", "J-Quants"]
+packages = [
+    { include = "jquantsapi" }
+]
 
 [project.urls]
 "Homepage" = "https://github.com/dakimura/jquants-api-client-python"
