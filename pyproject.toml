@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "jquants-api-client"
+name = "dakimura-sample"
 version = "0.0.0" # use poetry-dynamic-versioning
 authors = [
-    "J-Quants Project Contributors <j-quants@jpx.co.jp>",
+    "dakimura <dakimura@example.com>",
 ]
 description = "J-Quants API Client Library"
 readme = "README.md"
@@ -15,8 +15,8 @@ classifiers = [
 keywords = ["jquants", "api", "client", "J-Quants"]
 
 [project.urls]
-"Homepage" = "https://github.com/J-Quants/jquants-api-client-python"
-"Bug Tracker" = "https://github.com/J-Quants/jquants-api-client-python/issues"
+"Homepage" = "https://github.com/dakimura/jquants-api-client-python"
+"Bug Tracker" = "https://github.com/dakimura/jquants-api-client-python/issues"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
